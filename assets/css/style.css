@@ -146,7 +146,7 @@ h6 {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 720px) {
   #main {
     margin-left: 100px;
   }
@@ -294,6 +294,15 @@ h6 {
     padding-left: 160px;
     width: 100%;
       }
+
+  #scroll{
+    position: absolute;
+      width: 20%;
+      display: flex;
+      top: 280px;
+      align-items: center;
+      justify-content: center;
+      left: 450px;    }
 }
 
 @media  (min-width: 722px) {
@@ -329,7 +338,7 @@ h6 {
 }
 
 #hero p span {
-  color: #FDFEFE ;
+  color: #0b79df;
   letter-spacing: 1px;
 }
 
@@ -369,6 +378,12 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+}
+
+.class{
+  display:flex;
+  justify-content:center;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
