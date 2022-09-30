@@ -334,11 +334,14 @@ h6 {
   color: #d62f0a;
   margin: 15px 0 0 0;
   font-size: 26px;
+  font-style:bold;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
   color: #0b79df;
+  font-style:bold;
+
   letter-spacing: 1px;
 }
 
@@ -446,7 +449,7 @@ section {
 .img-fluid{
   width: 90%;
   padding: 30px;
-  border-radius:10px;
+  border-radius:20px;
  }
 
 .about .content ul {
